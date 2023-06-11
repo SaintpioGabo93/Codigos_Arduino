@@ -23,32 +23,38 @@ void loop() {
 
   else if (val == 'b')
     {
-      digitalWrite(leds[0],HIGH);
+      digitalWrite(leds[0],LOW);
       }
 
   else if (val == 'c')
     {
-      digitalWrite(leds[0],HIGH);
+      digitalWrite(leds[1],HIGH);
       }
 
   else if (val == 'd')
     {
-      digitalWrite(leds[0],HIGH);
+      digitalWrite(leds[1],LOW);
+      }
+
+  else if (val == 'e')
+    {
+      digitalWrite(leds[2],HIGH);
       }
 
   else if (val == 'f')
     {
-      digitalWrite(leds[0],HIGH);
+      digitalWrite(leds[2],LOW);
       }
 
   else if (val == 'g')
     {
-      digitalWrite(leds[0],HIGH);
+      digitalWrite(leds[3],HIGH);
       }
-
+  
   else if (val == 'h')
     {
-      digitalWrite(leds[0],HIGH);
+      digitalWrite(leds[3],LOW);
       }
 
+      
 }
